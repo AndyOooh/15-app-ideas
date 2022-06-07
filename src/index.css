@@ -1,13 +1,40 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+  font-family: monospace, 'Courier New', Courier;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: rgb(255, 255, 255);
+
+  --main-pink: rgb(255, 147, 147);
+  --main-turquish: rgb(177, 220, 255);
+  --main-purple: rgb(194, 177, 255);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.container {
+  /* padding: 0 3rem;  */
+  max-width: 65rem;
+  margin: auto;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: rgb(255, 147, 147);
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  font-weight: 900;
+  /* text-shadow: 0.05rem 0.05rem 0.025rem rgba(0, 0, 0, 0.5); */
+  cursor: url('./assets/icons8-hand-cursor-24.png'), crosshair;
+}
+
+button:hover {
+  background: var(--main-purple);
+  /* color: var(--main-pink); */
+}
+
+ul {
+  list-style: none;
 }

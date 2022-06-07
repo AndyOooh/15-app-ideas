@@ -1,0 +1,21 @@
+.actions {
+    /* color: aqua; */
+  }
+  
+  /* .actions button {
+    font: inherit;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+  } */
+
+  .modal {
+    position: fixed;
+    height: 50vh;
+    width: 50%;
+    top: 25vh;
+    left: 25%;
+    background: var(--main-turquish);
+    z-index: 100;
+    /* overflow: hidden; */
+  }

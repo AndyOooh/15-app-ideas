@@ -1,0 +1,25 @@
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 8;
+  background: var(--main-pink);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  font-size: 1.25rem;
+}
+
+.logo {
+  height: 100%;
+}
+
+.logo img {
+  height: 100%;
+}
+
+

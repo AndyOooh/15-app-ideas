@@ -1,0 +1,5 @@
+.footer {
+  height: 30rem;
+  border: 2px solid var(--main-purple);
+  background: var(--main-turquish);
+}
